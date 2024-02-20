@@ -1,0 +1,29 @@
+/*Header*/
+header{
+    width: 97%;
+    min-height: 100px;
+    max-width: 1530px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    flex-wrap: wrap;
+    position: fixed;
+    box-sizing: border-box;
+   
+}
+
+li{
+    list-style: none;
+}
+
+/*Products*/
+
+.products{
+    padding: 5rem 2rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1ref));
+    gap: 3rem 1rem;
+    box-sizing: border-box;
+}
